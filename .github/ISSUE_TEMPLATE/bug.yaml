@@ -20,11 +20,12 @@ body:
     id: reproduce
     attributes:
       label: Reproduce
-      description: Steps to reproduce the behavior you experienced.
+      description: Steps to reproduce the behavior you experienced, including system/browser used and version.
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
+        0. Use version X of Y software.
+        1. Go to...
+        2. Click on...
+        3. Scroll down to...
         4. See error!
     validations:
       required: true
