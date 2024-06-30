@@ -31,21 +31,15 @@ All contributions will be licensed under the project's license.
 
 ## Commit Messages
 
-Please write a great commit message.
+Repositories follow the [Conventional Commits](https://www.conventionalcommits.org) standard, this is usually enforced/verified with the use of git hooks and CI.
 
-1. Capitalize the subject line
-2. Do not end the subject line with punctuation.
-3. Use the imperative in the subject line ("Fix networking issue")
-4. Limit the subject line to 50 characters
-5. Separate subject from body with a blank line, the body is optional
-6. Wrap the body at about 72 characters
-7. Use the body to explain **why**, *not what and how* (the code shows that!)
+Some individual repositories may not follow the above convention, in this case you should adere to the existing one. When in doubt, you may **simply ask**.
 
 ## Code Reviews
 
 - **Review the code, not the author.** Look for and suggest improvements without disparaging or insulting the author. Provide actionable feedback and explain your reasoning.
 - **You are not your code.** When your code is critiqued, questioned, or constructively criticized, remember that you are not your code. Do not take code review personally.
-- Kindly note any violations to the guidelines specified in this document.
+- Kindly note violations to the guidelines specified in this document, if any are found during a review.
 
 ## Coding Style
 
@@ -53,4 +47,4 @@ Consistency is the most important. Following the existing style, formatting, ide
 
 For example, if all private properties are prefixed with an underscore `_`, then new ones added should be prefixed in the same way. Or, if methods are named using camelcase, like `thisIsMyNewMethod`, then do not diverge from that by writing `this_is_my_new_method`. You get the idea. If in doubt, please ask or search the codebase for something similar.
 
-When possible, style and format will be enforced with an automated formatter/linter tool to avoid contributors having to worry about it.
+When possible, style and format will be enforced with an automated formatter/linter tool, either using git hooks or CI, to avoid contributors having to worry about it.
