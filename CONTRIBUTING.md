@@ -33,7 +33,7 @@ All contributions will be licensed under the project's license.
 
 Repositories follow the [Conventional Commits](https://www.conventionalcommits.org) standard, this is usually enforced/verified with the use of git hooks and CI.
 
-Some individual repositories may not follow the above convention, in this case you should adere to the existing one. When in doubt, you may **simply ask**.
+Some individual repositories may not follow the above convention, in that case you should adere to the existing one. When in doubt, you may **simply ask**.
 
 ## Code Reviews
 
