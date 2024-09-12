@@ -16,6 +16,12 @@ The `merge.yaml` workflow ensures that pull request titles follow the [Conventio
 
 The `release.yaml` workflow integrates seamlessly with the `merge.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick, clean and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure clean release notes and a clean main commit message tree.
 
+## Credits 💡
+
+The `AUTHORS` file is also recommended to be present in every repository. This file lists the names of those who have contributed to the project in any way, whether through code, documentation, design, testing, or other forms of support. It serves to acknowledge the work of both internal team members and external contributors who have provided value to the project.
+
+In most cases, the `AUTHORS` file is updated as contributions are made, with each contributor adding their name during the pull request process. Regular maintenance of this file is encouraged to ensure that all contributors receive proper credit.
+
 ## Notes 📝
 
 Files present in this repository, other than the ones mentioned above, are used by github to generate defaults in some of our repositories that do not have custom configurations. See this [thread](https://stackoverflow.com/questions/60507097) for more information.
