@@ -12,7 +12,7 @@ These rules are applied to a repository in the `Settings -> Rules -> Rulesets ->
 
 In the `.github/workflows` directory, you will find a `merge.yaml` file and a `release.yaml` file. These are both reusable action workflows that are expected to also be present in most of our repositories.
 
-The `merge.yaml` workflow ensures that pull request titles follow the [Conventional Commit](https://www.conventionalcommits.org) specification. Combined with the ruleset to block pushes to the main branch and the forcing of PR squashing, this setup allows contributors to create pull requests with commit messages written however they please while keeping the commit messages clean in the main branch through the pre-squash workflow validation.
+The `merge.yaml` workflow ensures that pull request titles follow the [Conventional Commit](https://www.conventionalcommits.org) specification. Combined with the ruleset to block pushes to the main branch and the forcing of PR squashing, this setup allows contributors to create pull requests with commit messages written however they please while keeping the commit messages clean in the main branch through the pre-squash workflow validation. Note that the `.commitlintrc` file must also be present in repositories with this workflow, to configure the message validation.
 
 The `release.yaml` workflow integrates seamlessly with the `merge.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick, clean and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure clean release notes and a clean main commit message tree.
 
