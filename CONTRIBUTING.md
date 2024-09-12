@@ -48,3 +48,7 @@ Consistency is the most important. Following the existing style, formatting, ide
 For example, if all private properties are prefixed with an underscore `_`, then new ones added should be prefixed in the same way. Or, if methods are named using camelcase, like `thisIsMyNewMethod`, then do not diverge from that by writing `this_is_my_new_method`. You get the idea. If in doubt, please ask or search the codebase for something similar.
 
 When possible, style and format will be enforced with an automated formatter/linter tool, either using git hooks or CI, to avoid contributors having to worry about it.
+
+## Miscellaneous
+
+We expect all contributions, be it code, design, or documentation, to present themselves in the English language. Any discussion or public facing development activities are also expected to be first and foremost in this language.
