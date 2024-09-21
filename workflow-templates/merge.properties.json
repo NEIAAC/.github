@@ -1,5 +1,5 @@
 {
-    "name": "Validate Pull Request Title",
+    "name": "Lint PR",
     "description": "Ensures the title of the pull request adheres to the Conventional Commits specification.",
     "iconName": "octicon git-pull-request",
     "categories": [
