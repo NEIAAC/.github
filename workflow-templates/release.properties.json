@@ -1,0 +1,8 @@
+{
+    "name": "Create Releases From Commits",
+    "description": "Automatically generate releases for various languages based on Conventional Commits in the repository history.",
+    "iconName": "repo-push",
+    "categories": [
+        "utilities"
+    ]
+}
