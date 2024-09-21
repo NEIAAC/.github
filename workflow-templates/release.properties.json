@@ -1,7 +1,7 @@
 {
-    "name": "Create Releases From Commits",
+    "name": "Create Releases From Commit",
     "description": "Automatically generate releases for various languages based on Conventional Commits in the repository history.",
-    "iconName": "repo-push",
+    "iconName": "octicon repo-push",
     "categories": [
         "utilities"
     ]

@@ -1,7 +1,7 @@
 {
-    "name": "Validate Pull Request Titles",
+    "name": "Validate Pull Request Title",
     "description": "Ensures the title of the pull request adheres to the Conventional Commits specification.",
-    "iconName": "git-pull-request",
+    "iconName": "octicon git-pull-request",
     "categories": [
         "continuous-integration"
     ]
