@@ -1,6 +1,25 @@
 # How we work 💼🔌
 
-The following is a brief explanation on how we expect our internal repositories to be setup. We have a ruleset and a couple of workflows that are planned to be used across the entire organization.
+The following is a brief explanation on how we expect our work here to be setup and organized. We have settings, a ruleset and a couple of workflows that should be used across the entire organization.
+
+## Repositories 📦
+
+Internal repositories are expected to have a list of settings configured and follow consistent naming conventions.
+
+In the repository home page:
+
+- Name should be in kebab-case.
+- Description should start capitalized and end with a period.
+- The deployments section, packages section and any other section that is not being used should be disabled in the settings _(cog icon)_ next to the description.
+
+In the `Settings -> General` section:
+
+- The default branch should always be named `main`, this aligns with GitHub standards so usually there is no need to change it manually.
+- The sponsorships tab should **_always_** be disabled, we do not accept donations here.
+- Wikis, Discussions, Projects and other tabs should be disabled, if they are not being used in the repository.
+- Pull requests should **only** allow squash merging, with the default commit message being the PR title and description. The default message is also expected to be accepted without any changes, the reason for this will be explained further down in this document.
+- Branches should always show the suggestion to update if they are behind their base branch.
+- Head branches should be configured to always get automatically deleted after a pull requested from them has been merged.
 
 ## Rulesets 🔒
 
