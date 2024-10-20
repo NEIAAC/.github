@@ -1,0 +1,8 @@
+{
+    "name": "Conventional Releases",
+    "description": "Automatically generate release pull requests and update project metadata based on Conventional Commits in the repository history.",
+    "iconName": "octicon repo-push",
+    "categories": [
+        "utilities"
+    ]
+}

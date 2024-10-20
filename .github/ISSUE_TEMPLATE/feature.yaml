@@ -1,0 +1,21 @@
+name: Request a feature
+description: Request a feature.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Please make sure this feature hasn't already been requested by looking through other open/closed issues.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give a brief description of the feature or enhancement you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra
+      description: Provied additional information on the requested feature like proposed solutions, links, screenshots, etc.

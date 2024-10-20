@@ -1,0 +1,8 @@
+{
+    "name": "Conventional Requests",
+    "description": "Ensures the title of the pull request adheres to the Conventional Commits specification.",
+    "iconName": "octicon git-pull-request",
+    "categories": [
+        "utilities"
+    ]
+}
