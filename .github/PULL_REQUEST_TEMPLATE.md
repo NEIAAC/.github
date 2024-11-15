@@ -1,6 +1,4 @@
-# Pull Request Template
-
-Fixes: #issue_number
+Fixes: #issue_number (remove this section if no issues are related!)
 
 ## Context
 
