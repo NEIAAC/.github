@@ -14,4 +14,4 @@ Provide any **additional information** that might be useful to the reviewer in e
 
 ## Checklist
 
-- [] I followed the processes outlined in the [Contributor Guide](https://github.com/NEIAAC/.github/blob/main/CONTRIBUTING.md) for submitting this PR.
+- [ ] I followed the processes outlined in the [Contributor Guide](https://github.com/NEIAAC/.github/blob/main/CONTRIBUTING.md) for submitting this PR.
