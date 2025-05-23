@@ -8,9 +8,12 @@ Internal repositories are expected to have a list of settings configured and fol
 
 In the repository home page:
 
-- Name should be in kebab-case.
+- Title (repository name) should be in kebab-case, and avoid using numbers.
 - Description should start capitalized and end with a period.
 - The deployments section, packages section and any other section that is not being used should be disabled in the settings _(cog icon)_ next to the description.
+- If the project has a website deployed, make sure it's linked under the description in its respective section.
+
+Every project should include a `README.md` file that lists the minimal steps needed to get it running on a new machine, along with any other relevant information. This file should be in the root of the repository. Other valid alternatives are making use of the **GitHub Wiki** section of the repository or having a dedicated deployed documentation web page/site (like [this](https://github.com/NEIAAC/typescript-template) or [this](https://github.com/NEIAAC/python-template) repository).
 
 In the `Settings -> General` section:
 
@@ -35,11 +38,9 @@ These rules are applied to a repository in the `Settings -> Rules -> Rulesets ->
 
 In the `workflow-templates` directory, you will find a `merge.yaml` file and a `release.yaml` file. These are both reusable action workflows that are expected to also be present in most of our repositories.
 
-- The `merge.yaml` workflow ensures that pull request titles follow the [Conventional Commit](https://www.conventionalcommits.org) specification. Combined with the ruleset to block pushes to the main branch and the forcing of PR squashing, this setup allows contributors to create pull requests with commit messages written however they please while keeping the commit messages clean in the main branch through the pre-squash workflow validation.
+- The `convention.yaml` workflow ensures that pull request titles follow the [Conventional Commit](https://www.conventionalcommits.org) specification. Combined with the ruleset to block pushes to the main branch and the forcing of PR squashing, this setup allows contributors to create pull requests with commit messages written however they please while keeping the commit messages clean in the main branch through the pre-squash workflow validation.
 
-- The `release.yaml` workflow integrates seamlessly with the `merge.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure maintainable release notes and a clean commit message history.
-
-These workflow templates can be added to internal repositories in the `Actions -> New workflow` section. Depending on the organization plan you may not be able to see the templates in private repositories, if that is the case you will have to manually copy from the ones here.
+- The `release.yaml` workflow integrates seamlessly with the `convention.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure maintainable release notes and a clean commit message history.
 
 ## Credits 💡
 
