@@ -2,7 +2,7 @@
 # https://github.com/NEIAAC/typescript-template and https://github.com/NEIAAC/python-template repositories
 # For actions like forcing a specific release version or working with multiple release
 # branches, see the official documentation: https://github.com/googleapis/release-please
-name: release
+name: "release"
 
 on:
   push:
