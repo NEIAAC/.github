@@ -40,7 +40,7 @@ In the `workflow-templates` directory, you will find a `merge.yaml` file and a `
 
 - The `convention.yaml` workflow ensures that pull request titles follow the [Conventional Commit](https://www.conventionalcommits.org) specification. Combined with the ruleset to block pushes to the main branch and the forcing of PR squashing, this setup allows contributors to create pull requests with commit messages written however they please while keeping the commit messages clean in the main branch through the pre-squash workflow validation.
 
-- The `release.yaml` workflow integrates seamlessly with the `convention.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure maintainable release notes and a clean commit message history.
+- The `release.yaml` workflow integrates seamlessly with the `convention.yaml` workflow. It generates a changelog, tagged github releases and a bump in language specific version files based on the Conventional Commits specification messages. This allows for quick and low complexity releases where developers only have to worry about setting a good PR title before the PR is merged to ensure maintainable release notes and a clean commit message history. Sometimes this workflow may fail with an error related to `release-please` not being able to create the PR labels. If this happens you must create the `2` labels manually, with the names `autorelease: pending` and `autorelease: tagged`, to fix it.
 
 ## Credits 💡
 
